@@ -73,7 +73,7 @@ const Vc = () => {
                 <Form.Label>Mobile No.</Form.Label>
                 <Form.Control
                   type="text"
-                  placeholder="Enter degree"
+                  placeholder="Enter mobile"
                   value={mobile}
                   onChange={(e) => setMobile(e.target.value)}
                 />
@@ -82,7 +82,7 @@ const Vc = () => {
                 <Form.Label>Email Address</Form.Label>
                 <Form.Control
                   type="text"
-                  placeholder="Enter degree"
+                  placeholder="Enter email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
