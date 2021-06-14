@@ -1,0 +1,20 @@
+$theme-colors: (
+  "default": #2abbac,
+  "default-color-dark": #00695b,
+  "primary": #4385f5,
+  "primary-color-dark": #0e47a1,
+  "secondary": #aa66cd,
+  "secondary-color-dark": #9a33cc,
+  "info": #33b5e7,
+  "info-color-dark": #0099cb,
+  "danger": #ff3548,
+  "danger-color-dark": #cc0001,
+  "warning": #ffbb34,
+  "warning-color-dark": #ff8800,
+  "success": #01c851,
+  "success-color-dark": #007e34,
+);
+@import "~bootstrap/scss/bootstrap";
+body {
+  background-color: $gray-200;
+}
