@@ -36,7 +36,7 @@ const Vc = () => {
     docPdf.text(degree, 70, 86);
     docPdf.setFontSize(12);
     docPdf.setTextColor("#000000");
-    docPdf.text(mobile, 70, 110);
+    docPdf.textWithLink(mobile, 70, 110, { url: `tel:${mobile}` });
     docPdf.setFontSize(12);
     docPdf.setTextColor("#000000");
     docPdf.textWithLink(email, 70, 120, {
